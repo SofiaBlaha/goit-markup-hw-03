@@ -166,14 +166,31 @@ a {
     background-color: #f4f4fd;
 }
 
-.second-title {
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.11;
-    letter-spacing: 0.02em;
-    text-align: center;
-    color: #2e2f42;
-    text-transform: capitalize
+.section-second {
+    padding: 120px 0;
+
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.principles-list {
+    display: flex;
+    gap: 24px;
+}
+
+.principles-link {
+    width: calc((100% - 72px) / 4);
 }
 
 .team-link {
@@ -181,6 +198,7 @@ a {
 }
 
 .third-title {
+    margin-bottom: 8px;
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
